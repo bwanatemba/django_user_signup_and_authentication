@@ -31,3 +31,11 @@ def index(request):
             return render(request, 'login.html')
     else:
         return render(request, 'login.html')
+
+
+def inner(request):
+    return render(request, 'inner-page.html')
+
+
+def about(request):
+    return render(request, 'about.html')
