@@ -25,4 +25,12 @@ urlpatterns = [
     path('index/', views.index, name='index'),
     path('inner/', views.inner, name='inner'),
     path('about/', views.about, name='about'),
+    path('add/', views.add, name='add'),
+    path('show/', views.show, name='show'),
+    path('delete/<int:id>', views.delete, name='delete'),
+    path('edit/<int:id>', views.edit, name='edit'),
+    path('update/<int:id>', views.update, name='update'),
+    path('pay/', views.pay, name='pay'),
+    path('token/', views.token, name='token'),
+    path('stk/', views.stk, name='stk'),
 ]
